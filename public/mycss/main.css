@@ -1,0 +1,418 @@
+html, body {
+    background-color: #fff;
+    /* color: red; */
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+.top-nav{
+    box-shadow: 0 0 5px black;
+    background: linear-gradient(to right, rgb(3, 8, 49), rgb(65, 104, 179)) no-repeat 0 0 / cover;
+}
+.transparent-nav{
+    background: transparent;
+}
+.nav2{
+    background: transparent !important;
+}
+/*
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+} */
+
+/* nav bar  */
+
+.about{
+    color: #fff !important;
+}
+.about:hover{
+    color: #000 !important;
+}
+
+
+ ul{
+ font-weight: bolder;
+ /* margin-left: 10%; */
+
+}
+ li{
+    margin-right: 5%;
+}
+ a.navbar-brand.logo {
+    color: #fff;
+}
+
+.fluid{
+    background-color: #089951;
+}
+/* page1 */
+/* section 1 */
+.laptopLink{
+    text-decoration: none;
+    color: black;
+
+}
+.laptopLink:hover{
+    text-decoration: none;
+    color: black;
+}
+.landingFluid1{
+    background-color:#089951 ;
+    color: #fff;
+}
+.img1{
+    width: 100%;
+    height: 60%;
+    /* height: 100%; */
+
+}
+
+.githubBtn ,.blogBtn{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+   width: 8rem;
+
+}
+.blogBtn{
+    margin-right: 1%;
+}
+/* section 2 */
+
+.divBtn{
+    width: 8rem !important;
+
+
+    /* padding: 2rem 3rem 0rem 0rem; */
+
+}
+.productImageDiv{
+    padding: 2rem 3rem 0rem 0rem;
+}
+.shopUl{
+    list-style: none;
+}
+.shopUl li{
+    text-decoration: none;
+    color: black;
+}
+ .list-group-item:active{
+    text-decoration: none !important;
+    color: black;
+}
+
+
+.viewMoreProduct{
+    width: 12rem;
+    background: transparent;
+    border: 1px solid #000;
+}
+/* section3  */
+.section3{
+
+    background-color: rgb(178, 204, 252);
+}
+
+
+.blogPost{
+    font-weight: bolder;
+
+
+}
+.bloPostPara{
+    font-size: 14px;
+}
+footer{
+    background-color: rgb(15, 42, 92);;
+    color: #fff;
+    height: 5rem;
+}
+/* page 2 product page  */
+
+.moreProductFluid1{
+    background-color: #a7f0d1;
+    /* border-bottom: 1px solid #cacccb; */
+}
+
+hr{
+    border: 2px solid #000;
+   /* width: 30px; */
+}
+
+/* single product page  */
+.mightAlsoLikeFluid{
+    background-color: rgb(178, 204, 252);
+}
+.singleProductdiv{
+    background: transparent;
+    border: 2px solid rgb(211, 209, 209);
+    padding: 3rem;
+    width: 90%;
+}
+
+/* cart  */
+.cartContainer{
+    width: 60%;
+    margin-left: 8% !important;
+}
+
+.cartBtnContinue{
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+    width: 11rem;
+}
+
+.cartBtnCheckout{
+    background: rgb(6, 155, 98);
+    color: white;
+    width: 11rem;
+    border: none;
+}
+/* .marginTop{
+
+    margin-top: 1rem;
+    border-top: 1px solid rgb(6, 155, 98);;
+    border-bottom: 1px solid rgb(6, 155, 98);;
+    border-left: 1px solid rgb(6, 155, 98);;
+    border-right: 1px solid rgb(6, 155, 98);;
+} */
+
+.marginTopHav{
+    border-top: 2px solid #b1b3b3;
+    border-bottom: 2px solid #b1b3b3;
+    border-left: none;
+    border-right: none;
+}
+.totalDiv{
+    background: #eff1f1;
+}
+/* card two */
+.Complete_Order{
+    width: 100%;
+}
+.thankyouContainer{
+    margin-top: 10rem;
+    height: 50vh;
+}
+.p{
+    font-weight: bolder;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+.singleProductImg{height: 20%;
+width: 70%;}
+.landingPageImage{
+    width: 100%;
+    filter: grayscale(100%) !important;
+}
+
+
+
+.iClass{
+    font-size: 17px;
+}
+.fa-chevron-right{color: rgb(94, 91, 91);
+}
+
+.cartImag{
+    width: 70%;
+    height: 50%;
+
+}
+
+
+.selectBox{display: flex;}
+.selectOption{
+    font-weight: bolder;
+}
+.cartDeletBtn{
+    border: none;
+    background: transparent;
+}
+.countSpan{
+    border-radius: 45%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 174, 0);
+    color: rgb(0, 0, 0);
+}
+
+.check-table-quantity{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid gray;
+
+}
+.font{
+    font-size: 15px;
+
+}
+.details{
+    font-size: 13px;
+    color: grey;
+}
+.align-right{
+    justify-items: right;
+  ;
+
+}
+
+/* for card  */
+
+.StripeElement{
+    background-color: white;
+    height: 49px;
+    padding: 10px 12px;
+    border-radius: 40x;
+    border:  1px solid transparent;
+    box-shadow: 0 1px 3px  0 #e6ebf1;
+    -webkit-transition: box-shadow 150ns ease;
+    transition: box-shadow 150ns ease;
+}
+
+.StripeElement--focus{
+    box-shadow: 0 px 3px 0 #cfd7df;
+
+}
+
+
+.StripeElement--invalid{
+   border-color: #fa755a;
+
+}
+
+
+.StripeElement--webkit-autofil{
+    background-color:  #fefde5 !important;
+
+}
+.getButon{
+    justify-content: center;
+    align-items: center;
+    background: #0657cd;
+    color:  #fff!important;
+    border: none;
+    height: 3rem;
+    width: 14rem;
+    margin-top: .2rem;
+    font-weight: 400;
+    text-align: center;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+.checkoutImage{
+    max-width: 70px;
+}
+/* new style for cartbtn */
+.cartbtns{
+    width: 11rem;
+}
+/* new stlye */
+.cartLaptopDiv{
+    width: 100%;
+}
+.cartoderDive{
+    width: 96%;
+}
+.add-product-continer{
+    background-color: #fff;
+}
+
+.form-control{
+   border-radius: 3% !important;
+   /* border-top: 4px grey !important ; */
+}
+.image-input{
+    background-color: #c04019 !important;
+}
+.admin-sidebar{
+    background-color:  #089951 !important ;
+}
+.form-div{
+    justify-content: center;
+
+}
+.product-btn{
+
+    width: 8rem !important;
+}
+.model-header-color{
+    background-color: #089951;
+    color: white;
+
+}
+.modelHeader{
+    display: flex;
+    justify-content: center !important;
+    justify-items: center !important;
+    align-content: center !important;
+    text-align:center !important;
+}
+
+.admin-top-nav{
+    background-color: teal !important;
+}
+.all-Btn{
+    background-color: rgb(9, 46, 114) !important;;
+    color: white;
+
+}
+.all-Btn:hover{
+    background-color: rgb(9, 46, 114) !important;;
+}
+.all-Btn:focus{
+    background-color: rgb(9, 46, 114) !important;;
+}
+.user-li{
+    font-weight: bolder;
+    color: black !important;
+}
+
+
+
+
+
+
+
+
