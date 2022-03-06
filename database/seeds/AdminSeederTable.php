@@ -17,7 +17,6 @@ class AdminSeederTable extends Seeder
             'name'=> 'Admin',
             'user_type' => 'admin',
              'email' => 'admin@gmail.com',
-             'email_verified_at' => '',
              'password'=>Hash::make('password') ,
         ]);
     }
